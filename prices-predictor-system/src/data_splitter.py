@@ -88,7 +88,7 @@ class DataSplitter:
         logging.info("Switching data splitting strategy.")
         self._strategy = strategy
 
-    def split(self, df: pd.DataFrame, traget coloumn: str):
+    def split(self, df: pd.DataFrame, target_column: str):
         """
         Executes the data splitting using the current strategy.
 
